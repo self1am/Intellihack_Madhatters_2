@@ -21,7 +21,7 @@ The following Python packages are required to run the analysis:
 To install the necessary libraries, you can run the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn matplotlib seaborn numpy
 ```
 
 ## Dataset
@@ -56,12 +56,10 @@ The dataset `customer_behavior_analytics.csv` contains the following columns:
 1. **Customer Segmentation:**
    - A scatter plot showing the segmentation of customers based on `total_purchases` and `avg_cart_value`.
    
-   ![Customer Segmentation](images/segmentation.png)
 
 2. **PCA Visualization of Clusters:**
    - A 2D scatter plot visualizing the customer segments using PCA to reduce the feature space to two principal components.
    
-   ![PCA Clusters](images/pca_clusters.png)
 
 ## Marketing Strategies for Each Segment
 
@@ -82,9 +80,11 @@ The dataset `customer_behavior_analytics.csv` contains the following columns:
 ## Running the Analysis
 
 1. Install the required libraries:
+
    ```bash
    pip install pandas scikit-learn matplotlib seaborn
    ```
+
 2. Load the dataset `customer_behavior_analytics.csv`.
 3. Run the Python script to perform the analysis, generate visualizations, and output customer segmentations.
 
@@ -92,5 +92,6 @@ The dataset `customer_behavior_analytics.csv` contains the following columns:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
+
+
 
