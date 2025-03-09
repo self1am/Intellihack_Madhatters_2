@@ -1,8 +1,5 @@
 # Intellihack_Madhatters_2
 
-Here is a sample `README.md` file that you can use for your GitHub repository:
-
-```markdown
 # Customer Segmentation Analysis
 
 This repository contains a customer segmentation analysis using the K-Means clustering algorithm, which groups customers based on their behaviors, such as total purchases, average cart value, time spent, and other metrics. The analysis is performed on a customer behavior dataset, which is processed and visualized to generate insights for targeted marketing strategies.
